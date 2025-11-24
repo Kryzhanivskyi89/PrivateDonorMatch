@@ -72,12 +72,17 @@ For detailed instructions see:
 ```
 fhevm-hardhat-template/
 ├── contracts/                   # Smart contract source files
-│   └── PrivateDonorMatch.sol    # Example FHE counter contract
+│   └── PrivateDonorMatch.sol    # FHE contract
 ├── deploy/                      # Deployment scripts
 ├── tasks/                       # Hardhat custom tasks
+├── frontend/                    # Frontend part poject
+   └── src
+      └── index.css              # Project main script
+      └── index.js               # Styles file
 ├── test/                        # Test files
 ├── hardhat.config.ts            # Hardhat configuration
 └── package.json                 # Dependencies and scripts
+└── index.html                   # Main entrance file
 ```
 
 ## 📜 Available Scripts
